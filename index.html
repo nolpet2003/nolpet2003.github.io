@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reader</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Welcome to ECXC Mind Reader</h1>
+        <h3>Think of someone on the team and answer yes or no</h3>
+        <div id="question-container">
+            <p id="question">Are you thinking of something?</p>
+            <button onclick="answerQuestion('yes')">Yes</button>
+            <button onclick="answerQuestion('no')">No</button>
+        </div>
+        <div id="result-container" style="display:none;">
+            <p id="result">I think you're thinking of: <span id="guessed-result"></span></p>
+            <img id="result-image" src="" alt="Result Image" class="hidden">
+        </div>
+       
+    </div>
+    <div id="logos-container">
+        <img id="logo" src="images/mainLogo.png" alt="etown logo">
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
