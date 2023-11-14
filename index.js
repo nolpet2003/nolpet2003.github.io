@@ -61,7 +61,7 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 questionIndex = 4;
             } else {
-                displayResult("Ben Ortiz", "images/ben.png");
+                displayResult("Ben Ortiz", "ben.png");
                 return;
             }
             break;
@@ -70,14 +70,14 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 questionIndex = 5;
             } else {
-                displayResult("Derek Kendig", "images/derek.png");
+                displayResult("Derek Kendig", "derek.png");
                 return;
             }
             break;
 
         case 5: // taller than 6 foot 2
             if (answer === 'yes') {
-                displayResult("Daniel Myers", "images/daniel.png");
+                displayResult("Daniel Myers", "daniel.png");
                 return;
             } else {
                 questionIndex = 6;
@@ -88,23 +88,23 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 displayResult("Matt Fick");
             } else {
-                displayResult("Brandon Baxter", "images/brandon.png");
+                displayResult("Brandon Baxter", "brandon.png");
             }
             return;
 
         case 7: // red beard
             if (answer === 'yes') {
-                displayResult("Nolan Pettit", "images/nolan.png");
+                displayResult("Nolan Pettit", "nolan.png");
             } else {
-                displayResult("Jake Forgione", "images/jakef.png");
+                displayResult("Jake Forgione", "jakef.png");
             }
             return;
 
         case 8: // hottest sister award
             if (answer === 'yes') {
-                displayResult("Will Inglis", "images/will.png");
+                displayResult("Will Inglis", "will.png");
             } else {
-                displayResult("Christian Gingrich", "images/christian.png");
+                displayResult("Christian Gingrich", "christian.png");
             }
             return;
 
@@ -126,7 +126,7 @@ function answerQuestion(answer) {
 
         case 11: // frat todd
             if (answer === 'yes') {
-                displayResult("Jake Smith", "images/jakes.png");
+                displayResult("Jake Smith", "jakes.png");
             } else {
                 questionIndex = 12;
             }
@@ -134,7 +134,7 @@ function answerQuestion(answer) {
 
         case 12: // complain
             if (answer === 'yes') {
-                displayResult("Braydon Malley", "images/braydon.png");
+                displayResult("Braydon Malley", "braydon.png");
             } else {
                 questionIndex = 13;
             }
@@ -142,7 +142,7 @@ function answerQuestion(answer) {
 
         case 13: // computer science major
             if (answer === 'yes') {
-                displayResult("Marty Ratchford", "images/marty.png");
+                displayResult("Marty Ratchford", "marty.png");
             } else {
                 questionIndex = 14;
             }
@@ -150,7 +150,7 @@ function answerQuestion(answer) {
 
         case 14: // bluemountain
             if (answer === 'yes') {
-                displayResult("Chase Wargo", "images/chase.png");
+                displayResult("Chase Wargo", "chase.png");
             } else {
                 questionIndex = 27;
             }
@@ -158,7 +158,7 @@ function answerQuestion(answer) {
 
         case 27: // glasses
             if (answer === 'yes') {
-                displayResult("Wyatt Peeling", "images/wyatt.png");
+                displayResult("Wyatt Peeling", "wyatt.png");
             } else {
                 displayResult("Congrats, you have stumped the computer");
             }
@@ -168,13 +168,13 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 questionIndex = 16;
             } else {
-                displayResult("Anthony Imperatore", "images/anthony.png");
+                displayResult("Anthony Imperatore", "anthony.png");
             }
             break;
 
         case 16: // clash royale
             if (answer === 'yes') {
-                displayResult("Carson Brooks", "images/carsonb.png");
+                displayResult("Carson Brooks", "carsonb.png");
             } else {
                 questionIndex = 17;
             }
@@ -190,9 +190,9 @@ function answerQuestion(answer) {
 
         case 18: // ireland
             if (answer === 'yes') {
-                displayResult("Brian Solly", "images/brians.png");
+                displayResult("Brian Solly", "brians.png");
             } else {
-                displayResult("Brian Merk", "images/brianm.png");
+                displayResult("Brian Merk", "brianm.png");
             }
             return;
 
@@ -208,21 +208,21 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 questionIndex = 21;
             } else {
-                displayResult("Nate Johanneman", "images/nate.png");
+                displayResult("Nate Johanneman", "nate.png");
             }
             break;
 
         case 21: // hair
             if (answer === 'yes') {
-                displayResult("Carson Wiley", "images/carsonw.png");
+                displayResult("Carson Wiley", "carsonw.png");
             } else {
-                displayResult("Todd Shifflet", "images/todd.png");
+                displayResult("Todd Shifflet", "todd.png");
             }
             return;
 
         case 22: // yelling etown
             if (answer === 'yes') {
-                displayResult("Alex Fox", "images/alex.png");
+                displayResult("Alex Fox", "alex.png");
             } else {
                 questionIndex = 23;
             }
@@ -238,9 +238,9 @@ function answerQuestion(answer) {
 
         case 24: // break the leg
             if (answer === 'yes') {
-                displayResult("Grant Kuhn", "images/grant.png");
+                displayResult("Grant Kuhn", "grant.png");
             } else {
-                displayResult("Andrew Reice", "images/andrew.png");
+                displayResult("Andrew Reice", "andrew.png");
             }
             return;
 
@@ -248,15 +248,15 @@ function answerQuestion(answer) {
             if (answer === 'yes') {
                 questionIndex = 26;
             } else {
-                displayResult("Carter Balliet", "images/carter.png");
+                displayResult("Carter Balliet", "carter.png");
             }
             break;
 
         case 26: // falk or maria
             if (answer === 'yes') {
-                displayResult("Coach Falk", "images/falk.png");
+                displayResult("Coach Falk", "falk.png");
             } else {
-                displayResult("Coach Anderson", "images/maria.png");
+                displayResult("Coach Anderson", "maria.png");
             }
             break;
 
