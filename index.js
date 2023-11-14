@@ -9,7 +9,7 @@ let questions = [
     "Does this person have a sibling that ran for the team?",    // 5
     "Does the person tend to ride a Blue Jay flyer?",       // 6 
     "Does the person usually have a red beard?",         // 7
-    "Did this person win the Hottest Sister Award?",           // 8
+    "Did this person win the Fastest Sister Award?",           // 8
     "Is the person either a freshman or sophomore?",        // 9
     "Has the person broken 10 minutes in a 3k (this season)?",            // 10
     "Would you describe this person as a frat version of Todd?",     // 11
