@@ -86,7 +86,7 @@ function answerQuestion(answer) {
 
         case 6: // bluejay flyer
             if (answer === 'yes') {
-                displayResult("Matt Fick");
+                displayResult("Matt Fick", "matt.png");
             } else {
                 displayResult("Brandon Baxter", "brandon.png");
             }
